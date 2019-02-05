@@ -1,5 +1,5 @@
 import { Injectable, NgZone } from '@angular/core';
-import { BehaviorSubject } from 'rxjs/BehaviorSubject';
+import { BehaviorSubject } from 'rxjs/internal/BehaviorSubject';
 
 export const LIGHT_STATES = {
   STOP: 'red',
