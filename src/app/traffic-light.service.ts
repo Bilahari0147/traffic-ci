@@ -18,7 +18,7 @@ export class TrafficLightService {
   }
 
   /**
-   * @author Ahsan Ayaz
+   * @author Bilahari
    * The function sends back the observable to which components can subscribe to for any state changes
    */
   public getState() {
@@ -27,7 +27,7 @@ export class TrafficLightService {
   }
 
   /**
-   * @author Ahsan Ayaz
+   * @author Bilahari
    * The function sets the state of the signal and stops the auto timer
    * @param state {string} value of state as string
    */
@@ -37,7 +37,7 @@ export class TrafficLightService {
   }
 
   /**
-   * @author Ahsan Ayaz
+   * @author Bilahari
    * Resets the signal to use auto state changer. It changes the state on particular hardcoded durations
    * for now. Simulates how signals actually work
    */
@@ -49,7 +49,7 @@ export class TrafficLightService {
   }
 
   /**
-   * @author Ahsan Ayaz
+   * @author Bilahari
    * This function triggers the automatic handling of the signals.
    * The signal's statge is changed with particular durations based on previous state
    */
