@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Observable } from 'rxjs/Observable';
 import { TrafficLightService, LIGHT_STATES } from './traffic-light.service';
 
 @Component({
