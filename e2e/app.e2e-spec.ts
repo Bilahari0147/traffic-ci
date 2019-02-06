@@ -1,6 +1,6 @@
 import { AppPage } from './app.po';
 
-describe('ng-traffic-ci App', () => {
+describe('traffic-ci-travis App', () => {
   let page: AppPage;
   let buttons;
 
